@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
+
+.red-link {
+  @apply text-red-500 border-b border-red-500;
+}
+
+.red-link:hover {
+  @apply border-red-700 text-red-700;
+}
+
+.tab {
+  @apply ml-8 mt-4;
+}
+
+.tab-content {
+  @apply font-semibold text-gray-400 leading-tight;
+}
+
 @tailwind utilities;
