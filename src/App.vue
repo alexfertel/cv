@@ -3,26 +3,37 @@
     <div class="min-h-screen">
       <!-- Header -->
       <div class="ml-6 mt-6 flex items-center">
-        <div>
+        <div class="flex items-center">
           <img
             class="h-10 w-h-10 rounded-full"
             src="/img/profile.jpg"
             alt="profile"
           />
-          <span class="ml-4 text-lg text-gray-100 font-extrabold">
-            Alexander A. González Fertel
+          <span class="ml-8 text-lg text-gray-100 font-extrabold">
+            Alexander González
           </span>
         </div>
-        <svg class="fill">
+        <svg
+          class="h-6 w-6 text-white sm:hidden"
+          viewBox="0 0 24 24"
+        >
           <path
-            class="heroicon-ui"
-            d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z"
+            stroke="currentColor"
+            stroke-width="2"
+            d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
           />
         </svg>
       </div>
 
       <!-- Tabs -->
-      <!-- <Tabs/> -->
+      <Tabs/>
+
+      <!-- About-->
+      <p class="">
+        Hello there! I am a 22 years old computer scientist graduated from 
+        the University of Havana.
+      </p>
+
     </div>
   </div>
 </template>
@@ -33,7 +44,7 @@ import Tabs from "./components/Tabs";
 export default {
   name: "app",
   components: {
-    // Tabs
+    Tabs
   }
 };
 </script>
