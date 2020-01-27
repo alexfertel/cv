@@ -32,25 +32,26 @@
     <div class="tab" :class="active != 1 ? 'hidden' : 'block'">
       <p class="tab-content">
         I have some experience in
-        <span
+        <a
           class="red-link"
+          target="blank"
           href="https://en.wikipedia.org/wiki/Web_development"
         >
-          Web Development </span
+          Web Development </a
         >,
-        <span
+        <a
           class="red-link"
           href="https://en.wikipedia.org/wiki/Machine_learning"
         >
           Machine Learning
-        </span>
+        </a>
         and
-        <span
+        <a
           class="red-link"
           href="https://en.wikipedia.org/wiki/Procedural_generation"
         >
           Procedural Content Generation
-        </span>
+        </a>
         .
       </p>
 
