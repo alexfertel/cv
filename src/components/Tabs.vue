@@ -58,12 +58,13 @@
       </p>
 
       I've combined the last two in my bachelor's thesis
-      <span
+      <a
         class="red-link"
+        target="_blank"
         href="https://github.com/alexfertel/wfc"
       >
         here
-      </span>
+      </a>
       .
     </div>
 
