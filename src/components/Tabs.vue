@@ -34,13 +34,14 @@
         I have some experience in
         <a
           class="red-link"
-          target="blank"
+          target="_blank"
           href="https://en.wikipedia.org/wiki/Web_development"
         >
           Web Development </a
         >,
         <a
           class="red-link"
+          target="_blank"
           href="https://en.wikipedia.org/wiki/Machine_learning"
         >
           Machine Learning
@@ -48,6 +49,7 @@
         and
         <a
           class="red-link"
+          target="_blank"
           href="https://en.wikipedia.org/wiki/Procedural_generation"
         >
           Procedural Content Generation
