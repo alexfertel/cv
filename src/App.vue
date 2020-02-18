@@ -10,11 +10,11 @@
             alt="profile"
           />
           <span class="ml-8 text-2xl text-gray-200 font-extrabold">
-            Alexander González
+            Alexander González Fertel
           </span>
         </div>
         <svg
-          class="h-6 w-6 text-white sm:hidden fill-current"
+          class="h-6 w-6 text-white hidden fill-current"
           viewBox="0 0 24 24"
         >
           <path
