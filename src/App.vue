@@ -13,7 +13,7 @@
               alt="profile"
             />
             <span class="ml-8 text-4xl font-bold">
-              Alexander
+              Alexander A.
               <span class="hidden sm:inline-block">González</span> Fertel
             </span>
           </div>
@@ -95,9 +95,13 @@
                   target="_blank"
                   href="https://en.wikipedia.org/wiki/Program_synthesis"
                 >
-                  Programm Synthesis
+                  Program Synthesis
                 </a>
-                and the Abstract Reasoning Corpus proposed by François Chollet.
+                and <i>The Abstraction and Reasoning Corpus</i> proposed by
+                <a class="red-link" target="_blank" href="https://fchollet.com">
+                  François Chollet
+                </a>
+                .
               </li>
             </ul>
           </section>
@@ -117,7 +121,7 @@
               <br />
               This site is built using VueJS and TailwindCSS.
               <br />
-              I've combined the PCG and ML in my
+              I've combined PCG and ML in my
               <a
                 class="red-link"
                 target="_blank"
