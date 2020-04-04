@@ -1,7 +1,9 @@
 <template>
   <div class="antialiased">
     <div class="min-h-screen font-raleway text-gray-100">
-      <div class="container mx-auto max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-3xl">
+      <div
+        class="container mx-auto max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-3xl"
+      >
         <!-- Header -->
         <div class="mt-32 flex items-center">
           <div class="flex items-center">
@@ -42,8 +44,7 @@
                 >
                   Procedural Content Generation
                 </a>
-                to develop mixed-initiave tools for artists, focusing on its
-                relationship with
+                focusing on its relationship with
                 <a
                   class="red-link"
                   target="_blank"
@@ -51,7 +52,7 @@
                 >
                   Machine Learning
                 </a>
-                .
+                to develop mixed-initiave tools for artists .
               </li>
               <li>
                 <span>- </span>
@@ -85,15 +86,6 @@
                   Functional Programming
                 </a>
                 is pervading most of today's mainstream programming languages.
-              </li>
-              <li>
-                <a
-                  class="red-link"
-                  target="_blank"
-                  href="https://en.wikipedia.org/wiki/Functional_programming"
-                >
-                  Functional Programming
-                </a>
               </li>
               <li>
                 <span>- </span>
