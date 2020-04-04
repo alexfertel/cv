@@ -249,6 +249,12 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      futura: [
+        'Futura-Medium'
+      ],
+      raleway: [
+        'Raleway'
+      ]
     },
     fontSize: {
       xs: '0.75rem',

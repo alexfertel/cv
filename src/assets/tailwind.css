@@ -1,4 +1,17 @@
 @tailwind base;
+
+@font-face {
+  font-family: Futura-Medium;
+  font-weight: 500;
+  src: url(/fonts/Futura-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: Raleway;
+  font-weight: 500;
+  src: url(/fonts/Raleway-Regular.ttf);
+}
+
 @tailwind components;
 
 .red-link {
