@@ -44,7 +44,7 @@
                 >
                   Procedural Content Generation
                 </a>
-                focusing on its relationship with
+                while focusing on its relationship with
                 <a
                   class="red-link"
                   target="_blank"
