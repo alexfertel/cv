@@ -77,7 +77,7 @@
               </li>
               <li>
                 <span>- </span>
-
+                Seeing how
                 <a
                   class="red-link"
                   target="_blank"
