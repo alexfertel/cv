@@ -2,17 +2,17 @@
   <div class="antialiased">
     <div class="min-h-screen font-raleway text-gray-100">
       <div
-        class="container mx-auto max-w-md sm:max-w-xl md:max-w-2xl lg:max-w-3xl"
+        class="container mx-auto max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl text-sm sm:text-base"
       >
         <!-- Header -->
-        <div class="mt-32 flex items-center">
+        <div class="mt-12 md:mt-32 flex items-center">
           <div class="flex items-center">
             <img
-              class="h-16 w-16 mt-1 rounded-full"
+              class="h-8 w-8 sm:h-16 sm:w-16 mt-1 rounded-full"
               src="/img/profile.jpg"
               alt="profile"
             />
-            <span class="ml-8 text-4xl font-bold">
+            <span class="ml-8 text-xl sm:text-4xl font-bold">
               Alexander A.
               <span class="hidden sm:inline-block">González</span> Fertel
             </span>
@@ -21,16 +21,16 @@
         <div class="mt-8 justify-center">
           <!-- About -->
           <section>
-            <p class="text-lg">
+            <p class="sm:text-lg">
               Hello there! <br />
               I'm a 23 years old computer scientist graduated from the
               University of Havana.
             </p>
           </section>
-          <hr />
+          <hr class="mt-4" />
           <!-- Interests -->
-          <section>
-            <h3 class="mt-3 font-semibold text-xl">
+          <section class="mt-4">
+            <h3 class="font-semibold sm:text-xl">
               I am very interested in:
             </h3>
             <ul class="mt-2">
@@ -106,9 +106,10 @@
             </ul>
           </section>
 
-          <hr />
+          <hr class="mt-4" />
+
           <!-- Work -->
-          <section>
+          <section class="mt-4">
             <h3 class="mt-3 font-semibold text-xl">
               Work:
             </h3>
@@ -142,10 +143,10 @@
             </p>
           </section>
 
-          <hr />
+          <hr class="mt-4" />
 
           <!-- Contact -->
-          <div class="mt-4">
+          <section class="mt-4">
             <p>
               <span class="flex items-center">
                 <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -164,7 +165,7 @@
                 <span class="ml-2">alexagf97</span>
               </span>
             </p>
-          </div>
+          </section>
         </div>
       </div>
     </div>
